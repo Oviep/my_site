@@ -10,3 +10,6 @@ def index(request):
         'questions': questions
     }
     return render(request, 'polls/index.html', context)
+
+# def environment(request):
+
